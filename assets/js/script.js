@@ -63,15 +63,15 @@ document.addEventListener('visibilitychange',
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            // document.title = "Come Back To Portfolio";
+            // $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Data Science", "backend development", "Cloud Development", "Machine Learning"],
+    strings: ["Data Science", "backend development", "Cloud Computing", "Machine Learning"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
