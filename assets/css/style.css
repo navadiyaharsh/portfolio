@@ -75,7 +75,7 @@ header {
 }
 section {
   min-height: 100vh;
-  padding: 2rem 9%;
+  padding: 8rem 9%;
 }
 .heading {
   font-size: 3.5rem;
@@ -566,7 +566,7 @@ header .navbar ul li a:hover {
   display: flex;
   flex-direction: row;
   width: 80%;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
   text-align: center;
   position: relative;
@@ -953,6 +953,9 @@ header .navbar ul li a:hover {
   min-height: 60vh;
 }
 .contact .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   max-width: 1050px;
   width: 100%;
   background: #fff;
