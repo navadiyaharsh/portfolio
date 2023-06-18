@@ -956,8 +956,6 @@ header .navbar ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  max-width: 1050px;
-  width: 100%;
   background: #fff;
   border-radius: 1.5rem;
   margin: 2rem 5rem;
