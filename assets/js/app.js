@@ -1,5 +1,4 @@
 import Effect from "./effect.js";
-// import consoleText from "./console.js";
 
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
@@ -16,8 +15,8 @@ let defaultColor = singleColor;
 const effect = new Effect(canvas.width, canvas.height);
 
 let lastTime = 0;
-const fps = 50;
-const nextframe = 1000 / fps; //for fps = 50, nextFrame = 20
+const fps = 30;
+const nextframe = 1000 / fps; 
 let timer = 0;
 
 function animate(timeStamp) {
@@ -80,6 +79,7 @@ window.addEventListener("touchend", () => {
   }
   lastTouchEnd = now;
 });
+
 
 particlesJS('particles-js',
   
