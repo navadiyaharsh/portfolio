@@ -7,7 +7,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 // Setting up the letters
-var letters = '૨૩૪૫૬૭૮૯કખગઘઙચછજઝઞટઠડઢણતથદધનપફબભમયરલળવશષસહ૦૧';
+var letters = '૨2૩3૪4૫5૬6૭7૮8૯9કખગઘઙચછજઝઞટઠડઢણતથદધનપફબભમયરલળવશષસહ૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1૨2૩3૪4૫5૬6૭7૮8૯9કખગઘઙચછજઝઞટઠડઢણતથદધનપફબભમયરલળવશષસહ૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1૦0૧1';
 letters = letters.split('');
 
 // Setting up the columns
