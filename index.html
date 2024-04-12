@@ -1,719 +1,1043 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Harshkumar Navadiya, portfolio, HarshKumar, personal portfolio" />
-    <meta name="description" content="Welcome to Hashkumar's Portfolio" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
-    <title>Portfolio | Harshkumar Navadiya</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Harsh Navadiya</title>
+  <meta name="title" content="Harsh Navadiya">
+  <meta name="description" content="This is a personal portfolio">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/png">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/17c73dd1db3509fc8be7a908c8a8ae13?family=Late+Night+%2A+Love+Notes" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
 </head>
-<body oncontextmenu="return false">
 
-<header>
-        <a href="/portfolio" class="logo">Harsh Navadiya</a>
+<body id="top">
 
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#work">Project</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#Certifications">Certifications</a></li>
-            <li><a href="#Publications">Publications</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-</header>
-<canvas id="matrix-canvas" style="opacity:0.2; position:absolute; font-size:medium">
-</canvas>
+  <!-- 
+    - #PRELOADER
+  -->
 
-
-<section class="home" id="home">
-  
-    <div id="particles-js"></div>
-
-    <div class="content">
-    <h2>Hi There,<br/> I'm Harshkumar <span>Navadiya</span></h2>
-    <p>I am into <span class="typing-text"></span></p>
-    <a href="#about" class="btn"><span>About Me</span>
-      <i class="fas fa-arrow-circle-down"></i>
-    </a>
-    <div class="socials">
-        <ul class="social-icons">
-          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/harsh-navadiya/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
-          <li><a class="github" aria-label="GitHub" href="https://github.com/navadiyaharsh111" target="_blank"><i class="fab fa-github"></i></a></li>
-          <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/navadiyaharsh11" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/harsh__navadiya_/"><i class="fab fa-instagram" target="_blank"></i></a></li>
-        </ul>
-      </div>
-    </div>
-<div class="image">
-    <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
-</div>
-</section>
-
-
-
-
-
-<section class="about" id="about">
-  <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
-
-  <div class="row">
-
-    <div class="image">
-      <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
-    </div>
-    <div class="content">
-      <h3>I'm Harsh</h3>
-      <span class="tag">Computer Engineering Grad Student @NYU</span>
-
-      <p>Newly minted with a Master's in Computer Engineering from New York University, I'm ready to dive into the tech
-        world.
-        I'm good at cloud computing, machine learning, and crunching data, and I love bringing new ideas to life.
-        I'm hunting for jobs where I can use my skills, especially in data science and cloud engineering, to learn lots.
-        Besides tech stuff, I'm really into finance. I enjoy investing, trading, and checking out new startup ideas. I'm
-        super
-        excited about roles in finance and fintech where I can make a real difference.</p>
-
-      <div class="box-container">
-        <div class="box">
-          <p><span> email : </span> hn2276@nyu.edu</p>
-          <p><span> place : </span> New York, NY, United Status</p>
-        </div>
-      </div>
-
-      <div class="resumebtn">
-        <a href="https://drive.google.com/file/d/1PA-Lz8rCs6yN7D1c1TKl7taPfz-pZiiX/view?usp=sharing" target="_blank"
-          class="btn"><span>Resume</span>
-          <i class="fas fa-chevron-right"></i>
-        </a>
-
-        <a href="https://leetcode.com/hn2276/" target="_blank" class="btn"
-          style="margin-left: 20px"><span>Leetcode</span>
-          <i class="fas fa-chevron-right"></i>
-        </a>
-      </div>
-
-    </div>
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
   </div>
-</section>
 
 
 
+  <!-- 
+    - #HEADER
+  -->
 
-
-
-<section class="skills" id="skills">
-
-    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Tools</span></h2>
-
+  <header class="header" data-header>
     <div class="container">
-          <div class="row" id="skillsContainer">
 
-            <!-- <div class="bar">
-              <div class="info">
-                <img src="https://img.icons8.com/color/48/000000/adobe.png"/>
-                <span>Adobe</span>
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="80" height="26" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="84" height="26" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Project</a>
+          </li>
+
+          <li>
+            <a href="#review" class="navbar-link" data-nav-link>Review</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn:hover">
+        <span class="span">Chat with Harsh</span>
+
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+      </a>
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+  <main>
+        <div id="particles-js" style="opacity: 0.6;"></div>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <div class="hero text-center" id="home">
+        
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="./assets/images/hero-banner.png" width="500" height="680" alt="Drew Hays" class="img-cover">
+            </div>
+
+            <span class="span title" style="text-align: center;"> Harsh <br> Navadiya</span>
+
+          </div>
+
+          <div class="hero-content">
+
+            <img src="./assets/images/ram.png">
+            <img src="./assets/images/quote.png" width="400">
+            <h1 class="h1 title" id="truth">Truth Love Compassion.</h1>
+
+
+            <div class="wrapper">
+              <a href="https://drive.google.com/file/d/1PA-Lz8rCs6yN7D1c1TKl7taPfz-pZiiX/view?usp=sharing" class="btn btn:hover">
+                <span class="span">Download CV</span>
+
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+
+              <p class="hero-text">
+              </p>
+            </div>
+
+          </div>
+
+          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service text-center" aria-label="my services" id="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Machine<br>
+                    Learning
+                  </a>
+                </h3>
+
               </div>
-            </div> -->
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    AI <br>
+                    Engineering
+                  </a>
+                </h3>
 
-      </div>
-</div>
-</section>
-
-
-
-
-
-
-<section class="education" id="education">
-
-  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
-    <div class="box-container">
-
-    <div class="box">
-        <div class="image">
-        <img draggable="false" src="./assets/images/educat/M_college.jpeg" alt="">
-        </div>
-        <div class="content">
-        <h3>Master of Science, Computer Engineering</h3>
-        <p>New York University, Tandon School of Engineering</p>
-        <h4>2022-2024 | GPA: 3.8 | Pursuing</h4>
-        </div>
-    </div>
-
-        <div class="box">
-          <div class="image">
-            <img draggable="false" src="./assets/images/educat/isro.png" alt="">
-          </div>
-          <div class="content">
-            <h3>Certification Course</h3>
-            <p>Indian Institute of Remote Sensing (IIRS), Indian Space Research Organization (ISRO)</p>
-            <h4>Aug 2020 - Nov 2024</h4>
-            <p><a href="https://drive.google.com/file/d/1MGkVhtEh-mqE5oYTPUucCVufVtK_Ts-R/view?usp=sharing">Geographical Information System,</a></p>
-            <p><a href="https://drive.google.com/file/d/1ABgx8zgLmBtvMZ4iKfN4bW6UwGeSEJ3L/view?usp=sharing">RS & GIS Applications,</a></p>
-            <p><a href="https://drive.google.com/file/d/1YkAo_nFMBZZQE7G1VORzc9qcKfePPZqN/view?usp=sharing">Global Navigation Satellite System,</a></p>
-            <p><a href="https://drive.google.com/file/d/1y8GGUIVZ8LMoJAzcaZLdxv9vYOvqadme/view?usp=sharing">Remote Sensing and Digital Image Analysis</a></p>
-          </div>
-        </div>
-
-    <div class="box">
-      <div class="image">
-      <img draggable="false" src="./assets/images/educat/B_college.jpeg" alt="">
-      </div>
-      <div class="content">
-          <h3>Bachelor of Technology, Electronics and Communications Engineering</h3>
-          <p style="color : rgb(0, 0, 0)">Birla Vishvakarma Mahavidyalaya</p>
-          <h4>2017-2021 | GPA : 7.89</h4> 
-          <a href="https://drive.google.com/file/d/1BIkZ4ubxx-2bIvfj3hY-4Gw2oWvaNNLt/view?usp=drive_link"><p>Completed</p>
-        </a>
-      </div>
-    </div>
-
-</div>
-</section>
-
-
-
-
-
-
-<section class="work" id="work">
-
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
-
-  <div class="box-container">
-
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/project1.png" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>Portfolio Website</h3>
-        </div>
-        <div class="desc">
-          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/project2.png" alt="" />
-      <div class="content">
-        <div class="tag">
-          <h3>Binomial Option Pricing Model</h3>
-        </div>
-        <div class="desc">
-          <p>The project allowed me to gain a deep understanding of option pricing models and how they are used to value complex
-          financial instruments</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/project3.png" alt="" />
-      <div class="content">
-        <div class="tag">
-          <h2>Multi-curve interest rate framework in Python</h2>
-        </div>
-        <div class="desc">
-          <p>The project allowed me to develop expertise in interest rate modeling and curve construction using multivariate
-          optimization techniques in Python.</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/project4.png" alt="" />
-      <div class="content">
-        <div class="tag">
-          <h3>Stock Price Prediction using ML</h3>
-        </div>
-        <div class="desc">
-          <p>Deployed the ML model in a scalable and cloud-based environment using AWS.</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/mrunalmania/stock-prediction" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/project5.png" alt="" />
-      <div class="content">
-        <div class="tag">
-          <h2>AWS-backed Photo Album Web App</h2>
-        </div>
-        <div class="desc">
-          <p>Developed a scalable and secure photo album web application by utilizing multiple AWS services such as S3, Lambda, and
-          API Gateway for the backend.</p>
-          <div class="btns">
-            <a href="https://drive.google.com/file/d/1wSKBSz4uixqY_TJvyZ6ntYnYvHWfyqTC/view?usp=sharing" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/navadiyaharsh111/search.ai" class="btn" target="_blank">Code <i
-                class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/project6.png" alt="" />
-      <div class="content">
-        <div class="tag">
-          <h3>Dining Concierge chatbot</h3>
-        </div>
-        <div class="desc">
-          <p>Leveraging Natural Language Processing (NLP) with Amazon Lex for conversational interactions with users</p>
-          <div class="btns">
-            <a href="https://drive.google.com/file/d/18MGTFkPoAT4HZs3ROlHpQDwbYuxu0M_a/view" class="btn"
-              target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/Deeep28/A1" class="btn" target="_blank">Code <i
-                class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/project7.png" alt="" />
-      <div class="content">
-        <div class="tag">
-          <h2>PitchBook Scraping</h2>
-        </div>
-        <div class="desc">
-          <p>Leveraged web scraping techniques to extract a large volume of private equity and investment banking deals from
-          Pitchbook, providing insights for research.</p>
-          <div class="btns">
-            <a href="https://drive.google.com/file/d/1r8ZJh-W1kAd6iF2YCVxd30a9unAOJdcf/view?usp=sharing" class="btn"
-              target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/navadiyaharsh111/" class="btn" target="_blank">Code <i
-                class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/project8.png" alt="" />
-      <div class="content">
-        <div class="tag">
-          <h2>REAL Public Library Management System</h2>
-        </div>
-        <div class="desc">
-          <p>It serves the community by providing access to diversified resources at affordable rental services, free room
-          reservations</p>
-          <div class="btns">
-            <a href="https://drive.google.com/file/d/1ErKeZVQ1vLbc0hef7UIFIscIbc3JSAhB/view?usp=sharing" class="btn"
-              target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/navadiyaharsh111/" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/project9.png" alt="" />
-      <div class="content">
-        <div class="tag">
-          <h2>Facial Recognition Voting System</h2>
-        </div>
-        <div class="desc">
-          <p>Worked with CNN algorithm and deep learning convolutional neural network to classify images using large image datasets</p>
-          <div class="btns">
-            <a href="https://drive.google.com/file/d/1SUxiIjVjulvHKnN-c4caAB8i5XCJyD6m/view?usp=sharing" class="btn"
-              target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/navadiyaharsh111/" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-</div> 
-
-</section>
-
-
-
-
-
-<section class="experience" id="experience">
-
-  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
-
-  <div class="timeline">
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>NYU, Department of Technology, Management and Innovation</h2>
-        </div>
-        <div class="desc">
-          <h3>Business Analytics Teaching Assistant - Prof. Mukul Pareek</h3>
-          <p>Sept 2023 - Present</p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>Courant Institute of Mathematical Sciences</h2>
-        </div>
-        <div class="desc">
-          <h3>Computer Science Grader - Dr. Benjamin F. Goldberg</h3>
-          <p>Sept 2023 - Present</p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>NYU Vertically Integrated Projects (VIP)</h2>
-        </div>
-        <div class="desc">
-          <h3>Lead Software Engineer: Merger & Acquisition Outcome Prediction</h3>
-          <p>Sept 2023 - Dec 2023</p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container right">
-      <div class="content">
-        <a href="https://www.footprint-intelligence.com/">
-          <div class="tag">
-            <h2 style="color:white">Footprint Intelligence</h2>
-          </div>
-        </a>
-        <div class="desc">
-          <h3>Data Science & Machine Learning</h3>
-          <p>Jul 2023 - Dec 2023</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>Jupiter Energy Metrics & Solutions</h2>
-        </div>
-        <div class="desc">
-          <h3>Co-founder & Chief Technology Officer</h3>
-          <p>Jun 2020 - Jul 2022</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container right">
-      <div class="content">
-        <a href="https://drive.google.com/file/d/18HN7VEDzLYtcJUSfqd4gp4YINQ12eO_0/view?usp=sharing">
-          <div class="tag">
-            <h2 style="color:white">Kingster636 Games</h2>
-          </div>
-        </a>
-        <div class="desc">
-          <h3>Research Intern</h3>
-          <p>May 2020 - Nov 2020</p>
-        </div>
-      </div>
-    </div>
-
-
-
-  </div>
-
-      <br>
-      <br>
-
-
-      <section class="education" id="Certifications">
-
-        <h1 class="heading"><i class="fas fa-graduation-cap"></i> Licenses <span>& certifications</span></h1>
-        <br>
-
-        <div class="box-container">
-
-
-          <div class="box">
-            <div class="content">
-              <p>Software Engineering Virtual Experience</p>
-              <p>JPMorgan Chase & Co.</p>
-              <a href="https://drive.google.com/file/d/1nXXJ-xMTMuhFTqj7-WuS2btZ1Z24NqMm/view?usp=sharing">
-                <p style="text-align: center; color : white">Issued Jun 2023 | Credential ID : QQt6mz4RBBoy449ib</p>
-              </a>
-            </div>
-          </div>
-          <br>
-          <br>
-
-
-          <div class="box">
-            <div class="content">
-              <p>Solutions Architecture Virtual Experience Program</p>
-              <p>Amazon Web Services (AWS)</p>
-              <a href="https://drive.google.com/file/d/1QWZP41BD8V-wDhL1N6xLVQ_aLv0666cF/view?usp=sharing">
-                <p style="text-align: center; color : white">Issued Jun 2023 | Credential ID : QQt6mz4RBBoy449ib</p>
-              </a>
-            </div>
-          </div>
-          <br>
-          <br>
-
-
-
-
-            <div class="box">
-            <div class="content">
-                <p>Solutions Architecture Virtual Experience Program</p>
-                <p>Forage</p>
-                <a href="https://drive.google.com/file/d/1QWZP41BD8V-wDhL1N6xLVQ_aLv0666cF/view">
-                <p style="text-align: center; color : white">Issued Jun 2023 | Credential ID : QQt6mz4RBBoy449ib</p>
-              </a>
-            </div>
-          </div>
-            <br>
-            <br>
-            
-            
-            
-            <div class="box">
-            <div class="content">
-                <p>Bloomberg Market Concepts</p>
-                <p>Bloomberg</p>
-                <a href="https://portal.bloombergforeducation.com/certificates/WJSKAhCgHiYUTntotYkRdhCj">
-                <p style="text-align: center; color : white">Issued Apr 2023 | Credential ID : WJSKAhCgHiYUTntotYkRdhCj</p>
-              </a>
-            </div>
-          </div>
-            <br>
-            <br>
-
-
-          <div class="box">
-            <div class="content">
-              <p>Algorithmic Trading and Finance Models with Python, R, and Stata Essential Training</p>
-              <p>Linkedin</p>
-              <a href="https://www.linkedin.com/learning/certificates/a9c366f4939905790842ee5c543da570a5a11111ca9d94bf7bd7e1bfdf1feecd?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BL3kh%2BkVLS7uIKXNHNMQMEA%3D%3D">
-                <p style="text-align: center; color : white">Issued Jan 2023</p>
-              </a>
-            </div>
-          </div>
-            <br>
-            <br>
-
-
-            <div class="box">
-              <div class="content">
-                <p>Algorithmic Trading and Stocks Essential Training</p>
-                <p>Linkedin</p>
-                <a
-                  href="https://www.linkedin.com/learning/certificates/4974a041df2e79af04d287a850c22c362a614b42f36c31671113d60264a861ba?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BpubciDmGSySM1uVran8ibQ%3D%3D">
-                  <p style="text-align: center; color : white">Issued Dec 2022</p>
-                </a>
               </div>
-            </div>
+            </li>
 
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Data <br>
+                    Science
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Cloud  <br>
+                    Engineering
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
 
         </div>
       </section>
-  
-
-</section>
 
 
 
 
 
+      <!-- 
+        - #ABOUT
+      -->
 
-<section class="contact" id="Publications">
-  
-  <h2 class="heading" style="  color: rgb(255, 255, 255);"> Publications </h2>
-<br>
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
 
-  <div class="container">
-    <div class="content">
-      
-      <a href="https://www.gnedenko.net/Journal/2021/SI_012021/RTA_SI_1_2021-23_233-242.pdf">
-      <h1 style=" color : rgb(0, 0, 0)">The Statistical Approach and Overview in Detection using Genomics Signal Processing Techniques on DNA</h1>
-      <p style= "color : rgb(0, 0, 0)">ICRISET2020 · Sep 4, 2020</p></a>
-    </div>
-  </div>
+          <div class="tab-container">
 
-  <br>
-  <br>
+            <ul class="tab-btn-list">
 
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skillset</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="interview">Experience</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="awward">Education</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="exhibition">Awards</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/about-banner.jpg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                    I'm Harsh
+                  </h2>
+                  <span class="span title h5">Computer Engineering Grad Student @NYU</span><br>
+                  <p class="section-text">
+                    Newly minted with a Master's in Computer Engineering from New York University, I'm ready to dive into the tech
+                    world. I'm good at cloud computing, machine learning, and crunching data, and I love bringing new ideas to life.
+                    I'm hunting for jobs where I can use my skills, especially in data science and cloud engineering, to learn lots.
+                    Besides tech stuff, I'm really into finance. I enjoy investing, trading, and checking out new startup ideas. I'm
+                    super excited about roles in finance and fintech where I can make a real difference.
+                  </p>
+
+                  <ul class="about-list">
+
+                    <li class="about-item">
+                      <p class="list-title">Place</p>
+
+                      <span class="span title h5">New York, NY, United Status</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Phone Number</p>
+
+                      <span class="span title h5">+1(347)-855-1347</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Address</p>
+
+                      <span class="span title h5">hn2276@nyu.edu</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Social Network</p>
+
+                      <div class="social-list">
+
+                        <a href="https://www.linkedin.com/in/harsh-navadiya/" class="social-link h6" title="Facebook">Ln.</a>
+                        <a href="https://github.com/navadiyaharsh111" class="social-link h6" title="Github">Gi.</a>
+                        <a href="https://twitter.com/navadiyaharsh11" class="social-link h6" title="Twitter">Tw.</a>
+                        <a href="https://www.instagram.com/harsh__navadiya_/" class="social-link h6" title="Instagram">In</a>
+
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="grid-list">
+
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+                    I help to create visual strategies with predictions.
+                  </h3>
+
+                  <p class="section-text">
+                    The stock market is a device to transfer money from the impatient to the patient.
+                    ~Warren Buffett
+                  </p>
+
+                  <ul class="skill-list">
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Decision Making</span>
+
+                        <span class="value">97%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 97%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Continuous Learning</span>
+
+                        <span class="value">95%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Risk Management</span>
+                    
+                        <span class="value">92%</span>
+                      </div>
+                    
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 92%"></div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <figure class="skill-banner img-holder" style="--width: 570; --height: 340;" data-tilt>
+                  <img src="./assets/images/skill-banner.jpg" width="570" height="420" loading="lazy" alt="skill banner"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="interview">
+              <div class="grid-list">
+
+                <div class="interview-card img-holder" style="--width: 376; --height: 420; background-color:rgb(206, 206, 206);" data-tilt>
+                    <span class="span">New York University
+                      <span class="span1" style="text-align: center; font-size:small">September 2023 - Present</span>
+                    <ul>
+                      <li><span class="span1">▶︎  AI Engineer, M & A Outcome Prediction at Finance and Risk Engineering</span></li>
+                      <li><span class="span1">▶︎  Business Analyst, Prof. Mukul Pareek at Department of Technology, Management and Innovation</span></li>
+                      <li><span class="span1">▶︎  Computer Science Grader, Dr. Benjamin F. Goldberg at Courant Institute of Mathematical Sciences</span></li>
+                    </ul>
+                  </span>
+                  <a href="https://www.nyu.edu/"><button class="btn btn:hover">View</button></a>
+                </div>
+
+                <div class="interview-card img-holder" style="--width: 376; --height: 420; background-color:rgb(206, 206, 206);" data-tilt>
+                    <span class="span">Footprint Intelligence
+                        <span class="span1" style="text-align: center; font-size:small">July 2023 - December 2023</span>
+                        <span class="span1">▶︎ Machine Learning Engineer</span>
+                        <span class="span1">❖ Enhanced predictive capabilities by 30% through data-driven decision-making, leveraging TensorFlow NLP category
+                        matching and Vertex AI.</span>
+                    </span>
+                    <a href="https://www.footprint-intelligence.com/"><button class="btn btn:hover">View</button></a>
+                </div>
+
+                <div class="interview-card img-holder" style="--width: 376; --height: 420; background-color:rgb(206, 206, 206);" data-tilt>
+                    <span class="span">Jupiter Energy Metrics & Solutions
+                      <span class="span1" style="text-align: center; font-size:small">June 2020 - July 2022</span>
+                      <span class="span1">▶︎ Co-founder & Chief Technology Officer</span>
+                      <span class="span1">❖ Built a robust web application for agricultural solutions, integrating "Farm Mitra service" for agro-data management
+                      and leveraging data science and ML tools to boost sector profitability.</span>
+                    </span>
+                    <a href="https://devfolio.co/projects/farm-mitra-application-1"><button class="btn btn:hover">View</button></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="awward">
+
+              <h3 class="h4 title section-title">
+                New York University, Tandon School of Engineering
+              </h3>
+              <h3 class="h5 title section-title">
+                Master of Science, Computer Engineering || September 2022 - May 2024 || GPA: 3.8 || Pursuing
+              </h3>
+              <br><br>
+              <h3 class="h4 title section-title">
+                Birla Vishvakarma Mahavidyalaya
+              </h3>
+              <h3 class="h5 title section-title">
+                Bachelor of Technology, Electronics and Communications Engineering || August 2017 - January 2022 || GPA : 7.89 || <a href="https://drive.google.com/file/d/1BIkZ4ubxx-2bIvfj3hY-4Gw2oWvaNNLt/view?usp=drive_link">Completed</a>
+              </h3>
+            </div>
+
+            <div class="tab-content" data-tab-content="exhibition">
+              <ul class="grid-list">
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 250;" data-tilt>
+                      <img src="./assets/images/exhibition-1.jpg" width="376" height="200" loading="lazy" alt="image"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 250;" data-tilt>
+                      <img src="./assets/images/exhibition-2.jpg" width="376" height="200" loading="lazy" 
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 250;" data-tilt>
+                      <img src="./assets/images/exhibition-3.jpg" width="376" height="200" loading="lazy"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="logo-soundcloud" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 250;" data-tilt>
+                      <img src="./assets/images/exhibition-4.jpg" width="376" height="200" loading="lazy"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 250;" data-tilt>
+                      <img src="./assets/images/exhibition-5.jpg" width="376" height="200" loading="lazy"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 250;" data-tilt>
+                      <img src="./assets/images/exhibition-6.jpg" width="376" height="200" loading="lazy"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="card-icon">
+                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+              <h3 class="h4 title section-title" style="margin-top: 8%;">
+                Publications
+              </h3>
+              <h3 class="h5 title section-title">
+                <a href="https://link.springer.com/chapter/10.1007/978-981-15-4692-1_50">AIDS Detection Using Genomics Signal Processing Techniques on DNA <br> Springer-Nature · March 1, 2020</a>
+              </h3>
+              <br>
+              <h3 class="h5 title section-title">
+                <a href="https://www.gnedenko.net/Journal/2021/SI_012021/RTA_SI_1_2021-23_233-242.pdf">The Statistical Approach and Overview in Detection using Genomics Signal Processing Techniques on DNA <br> ICRISET2020 · September 4, 2020</a>
+              </h3>
+
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="work with me">
+        <div class="container">
+
+          <h2 class="title h2 section-title text-center">
+            Let's Work Together On Your Next Project!
+          </h2>
+
+          <a href="#" class="btn btn:hover">
+            <span class="span">Get In Touch</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="section project" aria-label="my latest projects" id="project">
+
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-1.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Creative & experienced digital design studio" class="img-cover">
+
+                <a href="https://github.com/navadiyaharsh111/" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Maths, Product</p>
+
+                <h3 class="title h3">
+                  <a href="https://github.com/navadiyaharsh111/" class="card-title">Binomial Option Pricing Model</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-2.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Front End Development & Maintenance" class="img-cover">
+
+                <a href="https://github.com/navadiyaharsh111/" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Finance, Data</p>
+
+                <h3 class="title h3">
+                  <a href="https://github.com/navadiyaharsh111/" class="card-title">Multi-curve interest rate framework in Python</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-3.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Flutter Framework & Warframe Design" class="img-cover">
+
+                <a href="https://github.com/mrunalmania/stock-prediction" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Investing, Finance</p>
+
+                <h3 class="title h3">
+                  <a href="https://github.com/navadiyaharsh111/" class="card-title">Stock Price Prediction using ML</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-4.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Full Web Development Project With JavaScript" class="img-cover">
+
+                <a href="https://github.com/navadiyaharsh111/search.ai" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web, Product</p>
+
+                <h3 class="title h3">
+                  <a href="https://drive.google.com/file/d/1wSKBSz4uixqY_TJvyZ6ntYnYvHWfyqTC/view?usp=sharing" class="card-title">AWS-backed Photo Album Web App</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-5.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+
+                <a href="https://github.com/Deeep28/A1" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">AWS, Interactive</p>
+
+                <h3 class="title h3">
+                  <a href="https://drive.google.com/file/d/18MGTFkPoAT4HZs3ROlHpQDwbYuxu0M_a/view" class="card-title">Dining Concierge chatbot</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+          
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-6.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+          
+                <a href="https://github.com/navadiyaharsh111/" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+          
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+          
+              <div class="card-content">
+                <p class="card-subtitle">Analysis, Data</p>
+          
+                <h3 class="title h3">
+                  <a href="https://drive.google.com/file/d/1r8ZJh-W1kAd6iF2YCVxd30a9unAOJdcf/view?usp=sharing" class="card-title">PitchBook Scraping</a>
+                </h3>
+              </div>
+          
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+          
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-7.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+          
+                <a href="https://github.com/navadiyaharsh111/" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+          
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+          
+              <div class="card-content">
+                <p class="card-subtitle">Database, Oracal</p>
+          
+                <h3 class="title h3">
+                  <a href="https://drive.google.com/file/d/1ErKeZVQ1vLbc0hef7UIFIscIbc3JSAhB/view?usp=sharing" class="card-title">REAL Public Library Management System</a>
+                </h3>
+              </div>
+          
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+          
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-8.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+          
+                <a href="https://github.com/navadiyaharsh111/" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+          
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+          
+              <div class="card-content">
+                <p class="card-subtitle">ML, CV</p>
+          
+                <h3 class="title h3">
+                  <a href="https://drive.google.com/file/d/1SUxiIjVjulvHKnN-c4caAB8i5XCJyD6m/view?usp=sharing" class="card-title">Facial Recognition Voting System</a>
+                </h3>
+              </div>
+          
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi" aria-label="what our client says" id="review">
+        <div class="container">
+
+          <div class="testi-content">
+
+            <blockquote class="title h4 section-text">
+              &ldquo; Harsh has demonstrated great skills and profound knowledge in leveraging Power BI, Tableau, and Python to drive
+              data-driven solutions and insights, making him a valuable asset to a data-centric team. &rdquo;
+            </blockquote>
+
+            <div class="profile-card">
+              <figure class="card-banner img-holder" style="--width: 30; --height: 30;">
+                <img src="./assets/images/client1.png" width="30" height="30" loading="lazy"
+                  class="img-cover">
+              </figure>
+
+              <div>
+                <p class="title h5 card-title">Daniel Scholz</p>
+
+                <p class="card-subtitle">Managing Director at Footprint Intelligence</p>
+              </div>
+            </div>
+
+          </div>
+
+      <div class="testi-content" style="margin-top: 5%;">
+
+        <blockquote class="title h4 section-text">
+          &ldquo; I've worked with Mr Navadiya for over two years, and during that time, I've seen him quickly take on new
+          responsibilities while having the time to teach this information back to his teammates. By inheriting activities such as
+          campaign visuals and attracting viewers with a certain impact is a pinnacle of his performance - both of which extend
+          beyond our team experience - he makes our department much faster. &rdquo;
+        </blockquote>
+
+        <div class="profile-card">
+          <figure class="card-banner img-holder" style="--width: 30; --height: 30;">
+            <img src="./assets/images/client2.png" width="30" height="30" loading="lazy" class="img-cover">
+          </figure>
+
+          <div>
+            <p class="title h5 card-title">Nisarg Patel</p>
+
+            <p class="card-subtitle">Data Scientist Navy Federal Credit Union</p>
+          </div>
+        </div>
+
+      </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+
+          <h2 class="title h2 section-title">Get In Touch</h2>
+
+          <div class="contact-content">
+
+            <form action="./index.html" method="post" class="contact-form">
+
+              <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field">
+
+              <input type="email" name="email_address" placeholder="Email address" autocomplete="off" required
+                class="input-field">
+
+              <input type="tel" name="phone" placeholder="Phone" autocomplete="off" class="input-field">
+
+              <textarea name="message" placeholder="Enter massges" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn:hover">
+                <span class="span">Get In Touch</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12084.847094898261!2d-73.95576321937257!3d40.779358186119666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1712905793092!5m2!1sen!2sus"
+              width="400" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">+1 (347)-866-1347</span>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <address class="title h6">
+                    New York,
+                    NY 10029, USA
+                  </address>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">hn2276@nyu.edu</span>
+                </div>
+
+              </li>
+              <li class="contact-item">
+              <a href="https://info.flagcounter.com/BcRj"><img
+                  src="https://s01.flagcounter.com/map/BcRj/size_s/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/"
+                  alt="Flag Counter" border="0"></a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
     <div class="container">
-      <div class="content">
-    
-        <a href="https://link.springer.com/chapter/10.1007/978-981-15-4692-1_50">
-          <h1 style=" color : rgb(0, 0, 0)">AIDS Detection Using Genomics Signal Processing Techniques on DNA</h1>
-          <p style="color : rgb(0, 0, 0)">Springer-Nature · Mar 1, 2020</p>
-        </a>
-      </div>
+
+      <p class="copyright">
+        Copyright & Design By @HarshNavadiya - 2024
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Back To Top</span>
+
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
     </div>
-</section>
-
-
-
-<section class="education">
-
-  <h1 class="heading"><i class="fas fa-graduation-cap"></i> Honors <span>& awards</span></h1>
-  <br>
-
-  <div class="box-container">
-
-    <div class="box">
-      <div class="content">
-        <h3>AWS Jam</h3>
-        <h4>Issued by Amazon Web Service · Apr 2023</h4>
-        <p>I am proud to have been part of the Madhav_Boyz that was awarded runners up in the AWS Jam competition. This achievement
-        demonstrates our team's expertise in AWS services and our ability to collaborate effectively to deliver innovative
-        solutions. We are grateful for the opportunity to participate in the competition and showcase our skills. Thank you to
-        AWS for organizing the event and to my colleagues who contributed to this success.</p>
-        </a>
-      </div>
-    </div>
-    <br>
-    <br>
-
-        <div class="box">
-          <div class="content">
-            <h3>$14,000 Merit-based scholarship</h3>
-            <h4>Issued by New York University · Sep 2022</h4>
-            <p>Scholarship holder: $14,000 merit-based scholarship from New York University, recognizing academic excellence and
-            achievements.</p>
-            </a>
-          </div>
-        </div>
-        <br>
-        <br>
-
-    <div class="box">
-      <div class="content">
-        <h3>Runners up : National Level Atmanirbhar Bharat Hackathon</h3>
-        <h4>Associated with Jupiter Energy Metrics & Solutions</h4>
-        <p>Participated under Team Jupiter Energy Metrics & Solutions (JEMS) - " Kedar Patel Yagnik Mehta Nisarg Patel Akash Patel
-        Shivam Dalsaniya Neel Macwan "- successfully stood as RUNNER UP for the #AatmaNirbhar_Bharat_Ideathon_and_Hackaton
-        organized at BVM ENGINEERING COLLEGE in the month of July, 2020.
-        
-        We presented our Idea and Solutions for All in One Solution "Farm Mitra Application" for Farmers, having to forte the
-        vision of "MAKING FARMERS ENTREPRENEUR SAVVY".</p>
-        </a>
-      </div>
-    </div>
-    <br>
-    <br>
-
-        <div class="box">
-          <div class="content">
-            <h3>Mukhyamantri Yuva Swavalamban Yojana Education Department, Gujarat State.</h3>
-            <h4>Issued by Honor Issuer · Jan 2018</h4>
-            <p>Scholarship holder: INR 220,00 (~3000 USD), State Government of Gujarat, 2017-2021</p>
-            </a>
-          </div>
-        </div>
-        <br>
-        <br>
-
-
-
-  </div>
-</section>
-
-
-</section>
-
-
-
-<section class="footer" id = "contact">
-
-  <div class="box-container">
-
-      <div class="box">
-          <h3>Harsh's Portfolio</h3>
-          <p>Thank you for visiting my personal portfolio website. Connect with me over socials.
-      </div>
-
-      <div class="box">
-          <!-- <h3>quick links</h3>
-          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
-          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-          <a href="#work"><i class="fas fa-chevron-circle-right"></i> Projects</a>
-          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a> -->
-          <a href="https://info.flagcounter.com/BcRj"><img
-              src="https://s01.flagcounter.com/map/BcRj/size_s/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/"
-              alt="Flag Counter" border="0"></a>
-      </div>
-
-      <div class="box">
-          <h3>contact info</h3>
-          <p> <a href="tel:+13478661347"><i class="fas fa-phone"></i>+1 347-866-1347</a></p>
-          <p> <a href="mailto:hn2276@nyu.edu"><i class="fas fa-envelope"></i>hn2276@nyu.edu</a></p>
-          <p> <i class="fas fa-map-marked-alt"></i>Manhattan, New York, NY, 100029</p>
-
-          <div class="share">
-
-              <a href="https://www.linkedin.com/in/harsh-navadiya/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
-              <a href="https://github.com/navadiyaharsh111" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-              <a href="mailto:hn2276@nyu.edu" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
-              <a href="https://twitter.com/navadiyaharsh11" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
-
-          </div>
-      </div>
-  </div>
-
-  <h1 class="credit">Designed by <a href="https://www.linkedin.com/in/harsh-navadiya"> Harsh Navadiya</a></h1>
-
-</section>
+  </footer>
 
 
 
 
-<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
 
-<script src="./assets/js/particles.min.js"></script>
-<script src="./assets/js/app.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://unpkg.com/scrollreveal"></script>
 
-<script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
-    ></script>
 
-<script src="./assets/js/script.js"></script>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script src="./assets/js/particles.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
