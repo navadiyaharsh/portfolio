@@ -212,6 +212,12 @@ body.nav-active { overflow: hidden; }
   align-items: center;
 }
 
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .has-before,
 .has-after {
   position: relative;
@@ -574,24 +580,24 @@ body.nav-active { overflow: hidden; }
   #SOCIALS
 \*-----------------------------------*/
 
-.social-list a {
+.social a {
   font-size: 1.5rem;
   color: rgb(238, 238, 238);
   padding: 0.3rem 0;
   display: block;
 }
 
-.social-list a:hover {
+.social a:hover {
   color: #000000;
 }
 
-.social-list .share {
+.social .share {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem 0;
 }
 
-.social-list .share a {
+.social .share a {
   height: 4rem;
   width: 4rem;
   padding: 1rem;
@@ -605,7 +611,7 @@ body.nav-active { overflow: hidden; }
   border: none;
 }
 
-.social-list .share a:hover {
+.social .share a:hover {
   background: transparent;
   transform: scale(0.98);
   border: 0.1rem solid rgb(0, 0, 0);
@@ -1191,6 +1197,11 @@ textarea.input-field {
 
   .hero .btn { margin-inline: 0; }
 
+  .social {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
 
 
   /**
