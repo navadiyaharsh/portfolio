@@ -11,7 +11,7 @@
   -->
   <title>Harsh Navadiya</title>
   <meta name="title" content="Harsh Navadiya">
-  <meta name="description" content="This is a personal portfolio">
+  <meta name="description" content="Portfolio">
 
   <!-- 
     - favicon
@@ -24,8 +24,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="https://db.onlinewebfonts.com/c/17c73dd1db3509fc8be7a908c8a8ae13?family=Late+Night+%2A+Love+Notes" rel="stylesheet">
   <link rel="stylesheet" href="./assets/font/font.css">
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- 
     - custom css link
@@ -102,7 +103,7 @@
 
       </nav>
 
-      <a href="#" class="btn btn:hover">
+      <a href="" class="btn btn:hover" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hn2276/30min?hide_event_type_details=1&hide_gdpr_banner=1'});return false;">
         <span class="span">Chat with Harsh</span>
 
         <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
@@ -145,8 +146,8 @@
 
           <div class="hero-content">
 
-            <img src="./assets/images/ram.png">
-            <img src="./assets/images/quote.png" width="400">
+            <div class="size-center"><img src="./assets/images/ram.png"></div><br>
+            <div class="size-center"><img src="./assets/images/quote.png" width="400"></div>
             <h1 class="h1 title" id="truth">Truth Love Compassion.</h1>
 
 
@@ -156,10 +157,21 @@
 
                 <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
               </a>
-
-              <p class="hero-text">
-              </p>
             </div>
+
+            <p class="hero-text">
+            <div class="social-list">
+              <div class="share">
+                <a href="https://www.linkedin.com/in/harsh-navadiya/" class="fa fa-linkedin" aria-label="LinkedIn"
+                  target="_blank"></a>
+                <a href="https://github.com/navadiyaharsh111" class="fa fa-github" aria-label="GitHub" target="_blank"></a>
+                <a href="mailto:hello@harshnavadiya.com" class="fa fa-envelope" aria-label="Mail" target="_blank"></a>
+                <a href="https://twitter.com/navadiyaharsh11" class="fa fa-twitter" aria-label="Twitter" target="_blank"></a>
+                <a href="https://www.instagram.com/harsh__navadiya_/" class="fa fa-instagram" aria-label="Instagram"
+                  target="_blank"></a>
+              </div>
+            </div>
+            </p>
 
           </div>
 
@@ -330,25 +342,25 @@
                     <li class="about-item">
                       <p class="list-title">Phone Number</p>
 
-                      <span class="span title h5">+1(347)-866-1347</span>
+                      <a href="tel: +13478661347"><span class="span title h5">+1(347)-866-1347</span></a>
                     </li>
 
                     <li class="about-item">
                       <p class="list-title">Email Address</p>
 
-                      <span class="span title h5">hello@harshnavadiya.com</span>
+                      <a href="mailto: hello@harshnavadiya.com"><span class="span title h5">hello@harshnavadiya.com</span></a>
                     </li>
 
                     <li class="about-item">
                       <p class="list-title">Social Network</p>
 
                       <div class="social-list">
-
-                        <a href="https://www.linkedin.com/in/harsh-navadiya/" class="social-link h6" title="Facebook">Ln.</a>
-                        <a href="https://github.com/navadiyaharsh111" class="social-link h6" title="Github">Gi.</a>
-                        <a href="https://twitter.com/navadiyaharsh11" class="social-link h6" title="Twitter">Tw.</a>
-                        <a href="https://www.instagram.com/harsh__navadiya_/" class="social-link h6" title="Instagram">In</a>
-
+                        <div class="share">
+                          <a href="https://www.linkedin.com/in/harsh-navadiya/" class="fa fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                          <a href="https://github.com/navadiyaharsh111" class="fa fa-github" aria-label="GitHub" target="_blank"></a>
+                          <a href="mailto:hello@harshnavadiya.com" class="fa fa-envelope" aria-label="Mail" target="_blank"></a>
+                          <a href="https://twitter.com/navadiyaharsh11" class="fa fa-twitter" aria-label="Twitter" target="_blank"></a>
+                          <a href="https://www.instagram.com/harsh__navadiya_/" class="fa fa-instagram" aria-label="Instagram" target="_blank"></a></div>
                       </div>
                     </li>
 
@@ -488,10 +500,6 @@
                         class="img-cover">
                     </figure>
 
-                    <div class="card-icon">
-                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
-                    </div>
-
                   </div>
                 </li>
 
@@ -503,9 +511,6 @@
                         class="img-cover">
                     </figure>
 
-                    <div class="card-icon">
-                      <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
-                    </div>
 
                   </div>
                 </li>
@@ -518,9 +523,6 @@
                         class="img-cover">
                     </figure>
 
-                    <div class="card-icon">
-                      <ion-icon name="logo-soundcloud" aria-hidden="true"></ion-icon>
-                    </div>
 
                   </div>
                 </li>
@@ -533,9 +535,6 @@
                         class="img-cover">
                     </figure>
 
-                    <div class="card-icon">
-                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
-                    </div>
 
                   </div>
                 </li>
@@ -548,9 +547,6 @@
                         class="img-cover">
                     </figure>
 
-                    <div class="card-icon">
-                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
-                    </div>
 
                   </div>
                 </li>
@@ -562,10 +558,6 @@
                       <img src="./assets/images/exhibition-6.jpg" width="376" height="200" loading="lazy"
                         class="img-cover">
                     </figure>
-
-                    <div class="card-icon">
-                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
-                    </div>
 
                   </div>
                 </li>
@@ -606,7 +598,7 @@
             Let's Work Together On Your Next Project!
           </h2>
 
-          <a href="#" class="btn btn:hover">
+          <a href="#" class="btn btn:hover" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hn2276/30min?hide_event_type_details=1&hide_gdpr_banner=1'});return false;">
             <span class="span">Get In Touch</span>
 
             <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
@@ -943,8 +935,8 @@
 
           <div class="contact-content">
 
-            <form action="./index.html" method="post" class="contact-form">
-
+            <form action="https://api.web3forms.com/submit" method="post" class="contact-form">
+              <input type="hidden" name="access_key" value="a28bd7dc-6f0b-4d0f-a87c-f1fe4131e2dd">
               <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field">
 
               <input type="email" name="email_address" placeholder="Email address" autocomplete="off" required
@@ -976,7 +968,8 @@
                 </div>
 
                 <div>
-                  <span class="title h6">+1 (347)-866-1347</span>
+                  <a href="tel: +13478661347">
+                  <span class="title h6">+1 (347)-866-1347</span></a>
                 </div>
 
               </li>
@@ -989,10 +982,12 @@
                 </div>
 
                 <div>
+                  <a href="https://www.google.com/maps/@40.7753689,-73.9606836,14.87z?entry=ttu">
                   <address class="title h6">
                     New York,
                     NY 10029, USA
                   </address>
+                  </a>
                 </div>
 
               </li>
@@ -1005,7 +1000,7 @@
                 </div>
 
                 <div>
-                  <span class="title h6">hn2276@nyu.edu</span>
+                  <a href="mailto: contact@harshnavadiya.com"><span class="title h6">hn2276@nyu.edu</span></a>
                 </div>
 
               </li>
@@ -1073,6 +1068,7 @@
   <script src="./assets/js/app.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
 </body>
 

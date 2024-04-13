@@ -40,6 +40,7 @@
   /* font family */
   --fontFamily-recoleta: 'Recoleta';
   --fontFamily-roboto: 'Roboto', sans-serif;
+  --fontFamily-late: 'late';
 
   /* font size */
   --fontSize-1: 4.6rem;
@@ -83,12 +84,14 @@
 }
 
 
-
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
+
+html,
+body {
+  overflow-x: hidden;
+}
 
 *,
 *::before,
@@ -201,7 +204,13 @@ body.nav-active { overflow: hidden; }
   opacity: 1;
 }
 
-.text-center { text-align: center; }
+.text-center { text-align: center;}
+
+.size-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .has-before,
 .has-after {
@@ -239,7 +248,7 @@ body.nav-active { overflow: hidden; }
 }
 
 #truth{
-    font-family: "Late Night * Love Notes";
+    font-family: var(--fontFamily-late);
     font-size: 4.6rem;
 }
 
@@ -561,8 +570,47 @@ body.nav-active { overflow: hidden; }
 }
 
 
+/*-----------------------------------*\
+  #SOCIALS
+\*-----------------------------------*/
 
+.social-list a {
+  font-size: 1.5rem;
+  color: rgb(238, 238, 238);
+  padding: 0.3rem 0;
+  display: block;
+}
 
+.social-list a:hover {
+  color: #000000;
+}
+
+.social-list .share {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.social-list .share a {
+  height: 4rem;
+  width: 4rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5rem;
+  font-size: 1.7rem;
+  margin-right: 1rem;
+  transition: 0.2s;
+  background: rgb(230, 230, 230);
+  color: #000000;
+  border: none;
+}
+
+.social-list .share a:hover {
+  background: transparent;
+  transform: scale(0.98);
+  border: 0.1rem solid rgb(0, 0, 0);
+  color: #ffffff;
+}
 
 /*-----------------------------------*\
   #SERVICE
@@ -1126,6 +1174,12 @@ textarea.input-field {
    */
 
   .hero { text-align: left; }
+
+  .size-center {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
 
   .hero .container {
     grid-template-columns: 1fr 1fr;
