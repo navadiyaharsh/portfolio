@@ -8,7 +8,7 @@
   /* background colors */
   --bg-white: hsla(0, 0%, 100%, 1);
   --bg-light-gray: hsla(240, 1%, 83%, 1);
-  --bg-jet: hsla(0, 0%, 18%, 1);
+  --bg-jet: rgba(0, 0, 0,0.9);
   --bg-eerie-black: hsla(0, 0%, 13%, 1);
   --bg-rich-black-fogra-29: hsla(229, 23%, 9%, 1);
   --bg-smoky-black: hsla(0, 0%, 6%, 1);
@@ -21,7 +21,7 @@
 
   /* text colors */
   --text-white: hsla(0, 0%, 100%, 1);
-  --text-light-gray: hsla(240, 1%, 83%, 1);
+  --text-light-gray: rgb(255, 255, 255);
   --text-rich-black-fogra-29: hsla(216, 42%, 12%, 1);
   --text-smoky-black: hsla(0, 0%, 6%, 1);
   --text-black: hsla(0, 0%, 0%, 1);
@@ -93,6 +93,21 @@ body {
   overflow-x: hidden;
 }
 
+body::before {
+  content: "";
+  background-image: url('../images/img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 *,
 *::before,
 *::after {
@@ -141,7 +156,7 @@ html {
 }
 
 body {
-  background-color: var(--bg-black);
+  background-color: rgba(0, 0, 0, 1);
   color: var(--text-light-gray);
   font-family: var(--fontFamily-roboto);
   font-size: var(--fontSize-8);
@@ -377,7 +392,7 @@ body.nav-active { overflow: hidden; }
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--bg-black);
+  background-color: rgba(0, 0, 0, 0.3);
   padding-block: 20px;
   z-index: 4;
 }
@@ -1142,6 +1157,8 @@ textarea.input-field {
  * responsive for large than 768px screen
  */
 
+
+
 @media (min-width: 768px) {
 
   /** 
@@ -1514,7 +1531,7 @@ textarea.input-field {
    * HEADER
    */
 
-  .header { padding-block: 40px; }
+  .header { padding-block: 20px; }
 
   .header .container { padding-inline: 60px; }
 
