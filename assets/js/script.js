@@ -1,5 +1,42 @@
-'use strict';
+var images = [
+  "./assets/images/about-banner.jpg",
+  "./assets/images/about-banner1.jpg",
+  "./assets/images/about-banner2.jpg",
+  "./assets/images/about-banner3.jpg",
+  "./assets/images/about-banner4.jpg",
+  "./assets/images/about-banner5.jpg"
+];
 
+// Initialize index to track current image
+var currentIndex = 0;
+
+function changeImage() {
+  // Increment index or loop back to the beginning
+  currentIndex = (currentIndex + 1) % images.length;
+  // Update src attribute with the new image URL
+  document.getElementById("img-cover").src = images[currentIndex];
+}
+
+// -----------------------------------
+
+let userTexts = document.getElementsByClassName("user-text");
+let userPics = document.getElementsByClassName("user-pic");
+
+function showReview() {
+  for (userPic of userPics) {
+    userPic.classList.remove("active-pic");
+  }
+  for (userText of userTexts) {
+    userText.classList.remove("active-text");
+  }
+  let i = Array.from(userPics).indexOf(event.target);
+
+  userPics[i].classList.add("active-pic");
+  userTexts[i].classList.add("active-text");
+}
+
+
+'use strict';
 
 
 /**
@@ -159,3 +196,6 @@ addEventOnElements(hoveredElements, "mouseout", function () {
     cursors[i].classList.remove("hovered");
   }
 });
+
+
+
