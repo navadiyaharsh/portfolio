@@ -1,3 +1,7 @@
+
+
+// --------------------------------
+
 var images = [
   "./assets/images/about-banner.jpg",
   "./assets/images/about-banner1.jpg",
@@ -7,15 +11,17 @@ var images = [
   "./assets/images/about-banner5.jpg"
 ];
 
-// Initialize index to track current image
 var currentIndex = 0;
 
 function changeImage() {
-  // Increment index or loop back to the beginning
   currentIndex = (currentIndex + 1) % images.length;
-  // Update src attribute with the new image URL
   document.getElementById("img-cover").src = images[currentIndex];
 }
+
+changeImage();
+
+setInterval(changeImage, 6000);
+
 
 // -----------------------------------
 
